@@ -7,10 +7,11 @@ import { ListPageComponent } from './pages/list-page/list-page.component';
 import { NewPageComponent } from './pages/new-page/new-page.component';
 import { SearchPageComponent } from './pages/search-page/search-page.component';
 import { LayoutPageComponent } from './pages/layout-page/layout-page.component';
-import { HeroCardComponent } from './components/hero-card.component';
+import { HeroCardComponent } from './components/card/hero-card.component';
 import { MaterialModule } from '../material/material.module';
 import { PipeImagePipe } from './pipes/pipe-image.pipe';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ConfirmDialogComponent } from './components/confirm-dialog/confirm-dialog.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     HeroCardComponent,
     LayoutPageComponent,
     PipeImagePipe,
+    ConfirmDialogComponent,
   ],
   imports: [
     CommonModule,
